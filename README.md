@@ -1,7 +1,5 @@
 # staking-deposit-cli
 
-[![GitPOAP Badge](https://public-api.gitpoap.io/v1/repo/ethereum/staking-deposit-cli/badge)](https://www.gitpoap.io/gh/ethereum/staking-deposit-cli)
-
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
@@ -11,7 +9,7 @@
   - [For Linux or MacOS users](#for-linux-or-macos-users)
     - [File Permissions](#file-permissions)
     - [Option 1. Download binary executable file](#option-1-download-binary-executable-file)
-      - [Step 1. Installation](#step-1-installation)
+      - ~~[Step 1. Installation](#step-1-installation)~~
       - [Step 2. Create keys and `deposit_data-*.json`](#step-2-create-keys-and-deposit_data-json)
         - [language Argument](#language-argument)
         - [Commands](#commands)
@@ -40,7 +38,7 @@
         - [Successful message](#successful-message-2)
   - [For Windows users](#for-windows-users)
     - [Option 1. Download binary executable file](#option-1-download-binary-executable-file-1)
-      - [Step 1. Installation](#step-1-installation-3)
+      - ~~[Step 1. Installation](#step-1-installation-3)~~
       - [Step 2. Create keys and `deposit_data-*.json`](#step-2-create-keys-and-deposit_data-json-4)
         - [Language Argument](#language-argument-2)
         - [Commands](#commands-3)
@@ -70,7 +68,7 @@
 
 ## Introduction
 
-`deposit-cli` is a tool for creating [EIP-2335 format](https://eips.ethereum.org/EIPS/eip-2335) BLS12-381 keystores and a corresponding `deposit_data*.json` file for [Ethereum Staking Launchpad](https://github.com/ethereum/staking-launchpad).
+`deposit-cli` is a tool for creating [EIP-2335 format](https://eips.ethereum.org/EIPS/eip-2335) BLS12-381 keystores and a corresponding `deposit_data*.json` file for [Oone Staking Launchpad](https://apps1.oonechain.com/staking).
 
 - **Warning: Please generate your keystores on your own safe, completely offline device.**
 - **Warning: Please backup your mnemonic, keystores, and password securely.**
@@ -92,11 +90,11 @@ You can find the audit report by Trail of Bits [here](https://github.com/trailof
 
 On Unix-based systems, keystores and the `deposit_data*.json` have `440`/`-r--r-----` file permissions (user & group read only). This improves security by limiting which users and processes that have access to these files. If you are getting `permission denied` errors when handling your keystores, consider changing which user/group owns the file (with `chown`) or, if need be, change the file permissions with `chmod`.
 
-#### Option 1. Download binary executable file
+~~#### Option 1. Download binary executable file~~
 
-##### Step 1. Installation
+~~##### Step 1. Installation~~
 
-See [releases page](https://github.com/ethereum/staking-deposit-cli/releases) to download and decompress the corresponding binary files.
+~~See [releases page] () to download and decompress the corresponding binary files.~~
 
 ##### Step 2. Create keys and `deposit_data-*.json`
 
@@ -336,11 +334,11 @@ See [here](#successful-message)
 
 ### For Windows users
 
-#### Option 1. Download binary executable file
+~~#### Option 1. Download binary executable file~~
 
-##### Step 1. Installation
+~~##### Step 1. Installation~~
 
-See [releases page](https://github.com/ethereum/staking-deposit-cli/releases) to download and decompress the corresponding binary files.
+~~See [releases page]() to download and decompress the corresponding binary files.~~
 
 ##### Step 2. Create keys and `deposit_data-*.json`
 
