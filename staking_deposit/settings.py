@@ -1,7 +1,7 @@
 from typing import Dict, NamedTuple
 
 
-DEPOSIT_CLI_VERSION = '2.4.0'
+DEPOSIT_CLI_VERSION = '2.4.1'
 
 
 class BaseChainSetting(NamedTuple):
@@ -18,7 +18,7 @@ ZHEJIANG = 'zhejiang'
 
 
 # Mainnet setting
-MainnetSetting = BaseChainSetting(NETWORK_NAME=MAINNET, GENESIS_FORK_VERSION=bytes.fromhex('00000000'))
+MainnetSetting = BaseChainSetting(NETWORK_NAME=MAINNET, GENESIS_FORK_VERSION=bytes.fromhex('000517D1'))
 # Ropsten setting
 RopstenSetting = BaseChainSetting(NETWORK_NAME=ROPSTEN, GENESIS_FORK_VERSION=bytes.fromhex('80000069'))
 # Goerli setting
